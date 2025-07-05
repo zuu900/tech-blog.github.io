@@ -1,0 +1,28 @@
+{
+  "name": "tech_blog",
+  "license": "SEE LICENSE IN LICENSE",
+  "type":"module",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:deploy": "jest -- check_deploy.ts",
+    "test:ogp": "jest -- check_ogp.ts"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/jest-image-snapshot": "^6.4.0",
+    "jest": "^29.7.0",
+    "jest-image-snapshot": "^6.4.0",
+    "jest-puppeteer": "^11.0.0",
+    "jest-serializer-html": "^7.1.0",
+    "puppeteer": "^24.2.1",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.7.3"
+  },
+  "overrides": {
+    "glob": "11.0.1",
+    "rimraf": "5.0.10"
+  }
+}
